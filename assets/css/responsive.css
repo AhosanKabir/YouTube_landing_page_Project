@@ -1,0 +1,1383 @@
+/* Big screen :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /*=============== index.html part ================== */
+
+  .container {
+    max-width: 1140px;
+  }
+  .logo_area a {
+    width: 210px;
+    padding: 11px 0;
+    font-size: 21px;
+  }
+  .menu-area a {
+    width: auto;
+    padding: 11px 33px;
+    font-size: 21px;
+    float: right;
+  }
+  .hero_left h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+  .hero_left p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    padding-right: 1px;
+  }
+  .hero_img {
+    max-width: 945px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    object-fit: cover;
+  }
+  .hero_left {
+    margin-top: 135px;
+  }
+  .hero_bottom {
+    max-width: 1031px;
+    font-size: 32px;
+  }
+  .Que_Element h2 {
+    font-size: 40px;
+  }
+  .que_single_items span {
+    font-size: 21px;
+    line-height: 18px;
+  }
+  .que_list {
+    gap: 32px;
+    z-index: 2;
+  }
+  .hero_btn {
+    font-size: 21px;
+    padding: 11px 29px;
+  }
+  .que_btn a {
+    padding: 11px 31px;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 70px;
+    z-index: 2;
+  }
+  .este_title {
+    font-size: 40px;
+    margin-bottom: 33px;
+  }
+  .este_single_card {
+    padding: 34px;
+    background: rgba(0, 0, 0, 0.47);
+    border: 1px solid #f7b3b3;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    gap: 24px;
+    max-height: 173px;
+  }
+  .este_single_card_text h3 {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+  .este_single_card_text p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 0;
+  }
+
+  .este_bottom {
+    max-width: 1031px;
+    font-size: 32px;
+  }
+
+  .este_section {
+    padding-bottom: 71px;
+  }
+
+  .aprenderas_Element h2 {
+    max-width: 1031px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .aprenderas_img {
+    max-width: 485px;
+  }
+
+  .aprenderas_single_items span {
+    font-size: 20px;
+    line-height: 0;
+  }
+
+  .aprenderas_single_items {
+    gap: 15px;
+  }
+
+  .aprenderas_list {
+    gap: 25px;
+  }
+
+  .aprenderas_bottom p {
+    max-width: 1030px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .aprenderas_btn a {
+    font-size: 21px;
+    padding: 11px 31px;
+  }
+
+  .impulsa_title {
+    font-size: 32px;
+    max-width: 732px;
+    line-height: 45px;
+  }
+
+  .impulsa_content h3 {
+    max-width: 447px;
+    font-size: 28px;
+    line-height: 44px;
+  }
+
+  .impulsa_btn {
+    font-size: 20px;
+    padding: 11px 31px;
+  }
+
+  .impulsa_img img {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .impulsa_section {
+    padding-bottom: 105px;
+  }
+
+  .lista_section {
+    padding-top: 20px;
+  }
+
+  .lista_content_top p {
+    max-width: 1031px;
+    font-size: 25px;
+    padding-bottom: 41px;
+  }
+
+  .lista_box h4 {
+    font-size: 29px;
+    line-height: 31px;
+    max-width: 420px;
+  }
+
+  .star_icons {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+
+  .lista_box .line_through {
+    font-size: 40px;
+    line-height: 0;
+    margin-top: 32px;
+  }
+
+  .lista_box .lista_price {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .lista_box_btn {
+    gap: 35px;
+  }
+  .lista_box .lista_box_btn .lista_btn_red {
+    font-size: 28px;
+  }
+
+  .lista_box .lista_box_btn .impulsa_btn {
+    font-size: 21px;
+    padding: 11px 45px;
+    font-weight: 700;
+  }
+
+  .lista_box {
+    max-width: 620px;
+  }
+
+  .accordion_title {
+    max-width: 1031px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .accordion-button {
+    font-size: 22px;
+  }
+
+  .accordion-body {
+    font-size: 20px;
+  }
+
+  .accordion-item {
+    max-width: 1032px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+  .footer_part {
+    margin-top: 120px;
+  }
+  .accordion_section {
+    margin-top: 145px;
+  }
+
+  /* ======= tiktok html css part ========== */
+
+  .tiktok_header_area h2 {
+    font-size: 35px;
+  }
+  .tiktok_hero_content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .tiktok_hero_content p {
+    font-size: 22px;
+    line-height: 31px;
+    padding: 0 10px;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+
+  .tiktok_que_section .price_content .price_box {
+    max-width: 592px;
+  }
+
+  .price_box {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 565px;
+  }
+  .price_content .price_box h4 {
+    font-size: 31px;
+    line-height: 43px;
+  }
+  .price_divider {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  .price_main {
+    font-size: 65px;
+    line-height: 1.5;
+  }
+  .price_btn {
+    font-size: 20px;
+    padding: 11px 31px;
+  }
+  .tiktok_que_title {
+    font-size: 34px;
+  }
+  .tiktok_que_single_card {
+    padding: 34px;
+    min-height: 178px;
+  }
+  .tiktok_que_single_card_text h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .tiktok_que_single_card_text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .tiktok_que_btn .tiktok_impulsa_btn {
+    font-size: 20px;
+  }
+  .tiktok_impulsa_title {
+    max-width: 650px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .tiktok_impulsa_content h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .tiktok_impulsa_btn {
+    font-size: 18px;
+    max-width: 300px;
+  }
+  .tiktok_impulsa_img img {
+    max-width: 300px;
+    width: 100%;
+  }
+  .price_title {
+    max-width: 752px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .footer_top_btns {
+    gap: 30px;
+  }
+  .footer_btn {
+    font-size: 20px;
+  }
+}
+
+/* Normal screen :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .logo_area a {
+    width: 210px;
+    padding: 11px 0;
+    font-size: 21px;
+  }
+  .menu-area a {
+    width: auto;
+    padding: 11px 33px;
+    font-size: 21px;
+    float: right;
+  }
+  .hero_left h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+  .hero_left p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    padding-right: 1px;
+  }
+  .hero_img {
+    max-width: 730px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    object-fit: cover;
+  }
+  .hero_left {
+    margin-top: 135px;
+  }
+  .hero_bottom {
+    max-width: 1031px;
+    font-size: 32px;
+  }
+  .Que_Element h2 {
+    font-size: 30px;
+    padding-bottom: 48px;
+  }
+  .que_single_items span {
+    font-size: 21px;
+    line-height: 18px;
+  }
+  .que_single_items img {
+    max-width: 18px;
+  }
+  .que_single_items {
+    gap: 15px;
+  }
+  .que_img {
+    max-width: 438px;
+  }
+  .que_list {
+    gap: 25px;
+    z-index: 2;
+  }
+  .hero_btn {
+    font-size: 21px;
+    padding: 11px 29px;
+  }
+  .que_btn a {
+    padding: 11px 31px;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 70px;
+    z-index: 2;
+  }
+  .este_title {
+    font-size: 40px;
+    margin-bottom: 33px;
+  }
+  .este_single_card {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.47);
+    border: 1px solid #f7b3b3;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    gap: 24px;
+    min-height: 158px;
+  }
+  .este_single_card_text h3 {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+  .este_single_card_text p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 0;
+  }
+
+  .este_bottom {
+    max-width: 1031px;
+    font-size: 32px;
+  }
+
+  .este_section {
+    padding-bottom: 71px;
+  }
+
+  .aprenderas_Element h2 {
+    max-width: 1031px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .aprenderas_img {
+    max-width: 485px;
+  }
+
+  .aprenderas_single_items span {
+    font-size: 20px;
+    line-height: 0;
+  }
+
+  .aprenderas_single_items {
+    gap: 15px;
+  }
+
+  .aprenderas_list {
+    gap: 25px;
+  }
+
+  .aprenderas_bottom p {
+    max-width: 1030px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .aprenderas_btn a {
+    font-size: 21px;
+    padding: 11px 31px;
+  }
+
+  .impulsa_title {
+    font-size: 32px;
+    max-width: 732px;
+    line-height: 45px;
+  }
+
+  .impulsa_content h3 {
+    max-width: 447px;
+    font-size: 28px;
+    line-height: 44px;
+  }
+
+  .impulsa_btn {
+    font-size: 20px;
+    padding: 11px 31px;
+  }
+
+  .impulsa_img img {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .impulsa_section {
+    padding-bottom: 105px;
+  }
+
+  .lista_section {
+    padding-top: 20px;
+  }
+
+  .lista_content_top p {
+    max-width: 1031px;
+    font-size: 25px;
+    padding-bottom: 41px;
+  }
+
+  .lista_box h4 {
+    font-size: 29px;
+    line-height: 31px;
+    max-width: 420px;
+  }
+
+  .star_icons {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+
+  .lista_box .line_through {
+    font-size: 40px;
+    line-height: 0;
+    margin-top: 32px;
+  }
+
+  .lista_box .lista_price {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .lista_box_btn {
+    gap: 35px;
+  }
+  .lista_box .lista_box_btn .lista_btn_red {
+    font-size: 28px;
+  }
+
+  .lista_box .lista_box_btn .impulsa_btn {
+    font-size: 21px;
+    padding: 11px 45px;
+    font-weight: 700;
+  }
+
+  .lista_box {
+    max-width: 620px;
+  }
+
+  .accordion_title {
+    max-width: 1031px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .accordion-button {
+    font-size: 22px;
+  }
+
+  .accordion-body {
+    font-size: 20px;
+  }
+
+  .accordion-item {
+    max-width: 1032px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+  .footer_part {
+    margin-top: 120px;
+  }
+  .accordion_section {
+    margin-top: 145px;
+  }
+
+  /* ======= tiktok html css part ========== */
+
+  .tiktok_header_area h2 {
+    font-size: 35px;
+  }
+  .tiktok_hero_content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .tiktok_hero_content p {
+    font-size: 22px;
+    line-height: 31px;
+    padding: 0 10px;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+
+  .tiktok_que_section .price_content .price_box {
+    max-width: 592px;
+  }
+
+  .price_box {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 565px;
+  }
+  .price_content .price_box h4 {
+    font-size: 31px;
+    line-height: 43px;
+  }
+  .price_divider {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  .price_main {
+    font-size: 65px;
+    line-height: 1.5;
+  }
+  .price_btn {
+    font-size: 20px;
+    padding: 11px 31px;
+  }
+  .tiktok_que_title {
+    font-size: 34px;
+  }
+  .tiktok_que_single_card {
+    padding: 34px;
+    min-height: 178px;
+  }
+  .tiktok_que_single_card_text h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .tiktok_que_single_card_text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .tiktok_que_btn .tiktok_impulsa_btn {
+    font-size: 20px;
+  }
+  .tiktok_impulsa_title {
+    max-width: 650px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .tiktok_impulsa_content h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .tiktok_impulsa_btn {
+    font-size: 18px;
+    max-width: 300px;
+  }
+  .tiktok_impulsa_img img {
+    max-width: 300px;
+    width: 100%;
+  }
+  .price_title {
+    max-width: 752px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .footer_top_btns {
+    gap: 30px;
+  }
+  .footer_btn {
+    font-size: 20px;
+  }
+}
+
+/* Tablet screen :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*============= index.html part =========================== */
+
+  .container {
+    max-width: 720px;
+  }
+
+  .logo_area a {
+    width: 210px;
+    padding: 11px 0;
+    font-size: 21px;
+  }
+  .menu-area a {
+    width: auto;
+    padding: 11px 33px;
+    font-size: 21px;
+    float: right;
+  }
+  .hero_left h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .hero_left p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    padding-right: 1px;
+  }
+  .hero_img {
+    max-width: 730px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    object-fit: cover;
+  }
+  .hero_left {
+    margin-top: 135px;
+  }
+  .hero_bottom {
+    max-width: 1031px;
+    font-size: 32px;
+  }
+  .Que_Element h2 {
+    font-size: 30px;
+    padding-bottom: 48px;
+  }
+  .que_single_items span {
+    font-size: 21px;
+    line-height: 18px;
+  }
+  .que_single_items img {
+    max-width: 18px;
+  }
+  .que_single_items {
+    gap: 15px;
+  }
+  .que_img {
+    max-width: 438px;
+    object-fit: cover;
+  }
+  .que_list {
+    gap: 25px;
+    z-index: 2;
+  }
+  .hero_btn {
+    font-size: 21px;
+    padding: 11px 29px;
+  }
+  .que_btn a {
+    padding: 11px 31px;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 70px;
+    z-index: 2;
+  }
+  .este_title {
+    font-size: 40px;
+    margin-bottom: 33px;
+  }
+  .este_single_card {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.47);
+    border: 1px solid #f7b3b3;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    gap: 24px;
+    min-height: 158px;
+  }
+  .este_single_card_text h3 {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+  .este_single_card_text p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 0;
+  }
+
+  .este_bottom {
+    max-width: 1031px;
+    font-size: 32px;
+  }
+
+  .este_section {
+    padding-bottom: 71px;
+  }
+
+  .aprenderas_Element h2 {
+    max-width: 1031px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .aprenderas_img {
+    max-width: 485px;
+  }
+
+  .aprenderas_single_items span {
+    font-size: 20px;
+    line-height: 0;
+  }
+
+  .aprenderas_single_items {
+    gap: 15px;
+  }
+
+  .aprenderas_list {
+    gap: 25px;
+  }
+
+  .aprenderas_bottom p {
+    max-width: 1030px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .aprenderas_btn a {
+    font-size: 21px;
+    padding: 11px 31px;
+  }
+
+  .impulsa_title {
+    font-size: 32px;
+    max-width: 732px;
+    line-height: 45px;
+  }
+
+  .impulsa_content h3 {
+    max-width: 447px;
+    font-size: 28px;
+    line-height: 44px;
+  }
+
+  .impulsa_btn {
+    font-size: 20px;
+    padding: 11px 31px;
+  }
+
+  .impulsa_img img {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .impulsa_section {
+    padding-bottom: 105px;
+  }
+
+  .lista_section {
+    padding-top: 20px;
+  }
+
+  .lista_content_top p {
+    max-width: 1031px;
+    font-size: 25px;
+    padding-bottom: 41px;
+  }
+
+  .lista_box h4 {
+    font-size: 29px;
+    line-height: 31px;
+    max-width: 420px;
+  }
+
+  .star_icons {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+
+  .lista_box .line_through {
+    font-size: 40px;
+    line-height: 0;
+    margin-top: 32px;
+  }
+
+  .lista_box .lista_price {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .lista_box_btn {
+    gap: 35px;
+  }
+  .lista_box .lista_box_btn .lista_btn_red {
+    font-size: 28px;
+  }
+
+  .lista_box .lista_box_btn .impulsa_btn {
+    font-size: 21px;
+    padding: 11px 45px;
+    font-weight: 700;
+  }
+
+  .lista_box {
+    max-width: 620px;
+  }
+
+  .accordion_title {
+    max-width: 1031px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .accordion-button {
+    font-size: 22px;
+  }
+
+  .accordion-body {
+    font-size: 20px;
+  }
+
+  .accordion-item {
+    max-width: 1032px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+  .footer_part {
+    margin-top: 120px;
+  }
+  .accordion_section {
+    margin-top: 145px;
+  }
+
+  /* ======= tiktok html css part ========== */
+
+  .tiktok_header_area h2 {
+    font-size: 35px;
+  }
+  .tiktok_hero_content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .tiktok_hero_content p {
+    font-size: 22px;
+    line-height: 31px;
+    padding: 0 10px;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+
+  .tiktok_que_section .price_content .price_box {
+    max-width: 592px;
+  }
+
+  .price_box {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 565px;
+  }
+  .price_content .price_box h4 {
+    font-size: 26px;
+    line-height: 35px;
+    max-width: 450px;
+  }
+  .price_divider {
+    font-size: 40px;
+    line-height: 34px;
+  }
+  .price_main {
+    font-size: 65px;
+    line-height: 77px;
+  }
+  .col-md-6.col-12.tiktok_impulsa_content {
+    padding-left: 53px;
+  }
+
+  .este_m_top {
+    margin: 0;
+  }
+
+  .price_btn {
+    font-size: 20px;
+    padding: 11px 31px;
+  }
+  .tiktok_que_title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .tiktok_que_single_card {
+    padding: 34px;
+    min-height: 178px;
+    margin-bottom: 20px;
+  }
+  .tiktok_que_single_card_text h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .tiktok_que_single_card_text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .tiktok_que_btn .tiktok_impulsa_btn {
+    font-size: 20px;
+  }
+  .tiktok_impulsa_title {
+    max-width: 650px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .tiktok_impulsa_content h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .tiktok_impulsa_btn {
+    font-size: 18px;
+    max-width: 300px;
+  }
+  .tiktok_impulsa_img img {
+    max-width: 300px;
+    width: 100%;
+  }
+  .price_title {
+    max-width: 752px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .footer_top_btns {
+    gap: 30px;
+  }
+
+  .footer_top_btns {
+    justify-content: space-around;
+  }
+
+  .footer_btn {
+    font-size: 18px;
+    max-width: 300px;
+    height: 60px;
+    padding: 13px 31px;
+  }
+}
+
+/* small screen :320px. */
+
+@media (max-width: 767px) {
+  /*=================== index.html part  ================================*/
+  /* este section  */
+  .este_single_card {
+    margin-bottom: 20px;
+  }
+  .este_m_top {
+    margin-top: 0;
+  }
+  .accordion_section {
+    background-size: cover;
+  }
+  /* .header_element{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    } */
+  .header-area .container-fluid {
+    padding-left: 20px;
+  }
+  .hero_img {
+    display: none;
+  }
+  .logo_area {
+    max-width: 100px;
+  }
+  .menu-area {
+    max-width: 210px;
+    margin-left: 10px;
+  }
+  .logo_area a {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  .menu-area a {
+    font-size: 18px;
+    padding: 11px 10px;
+  }
+  .hero_left {
+    margin-top: 30px;
+  }
+  .hero_left h2 {
+    font-size: 32px;
+    line-height: 41px;
+  }
+  .hero_left p {
+    font-size: 24px;
+  }
+  .hero_btn {
+    font-size: 20px;
+  }
+  .hero_bottom {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .que_list {
+    gap: 21px;
+  }
+
+  .que_section {
+    padding-bottom: 80px;
+  }
+  .Que_Element {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Que_Element h2 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .que_img {
+    display: none;
+  }
+  .que_single_items {
+    align-items: start;
+    gap: 20px;
+  }
+  .que_single_items span {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .que_single_items img {
+    max-width: 15px;
+    margin-top: 5px;
+  }
+  .que_btn a {
+    font-size: 18px;
+  }
+  /* .este_section  */
+  .este_section {
+    padding-bottom: 40px;
+  }
+  .este_title {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  .este_single_card {
+    flex-direction: column;
+    padding: 25px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .este_single_card img {
+    margin: 0 auto;
+  }
+
+  .este_bottom {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .aprenderas_list {
+    gap: 15px;
+  }
+
+  .aprenderas_single_items {
+    gap: 12px;
+  }
+
+  .aprenderas_img {
+    display: none;
+  }
+  .aprenderas_Element h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .aprenderas_list {
+    padding: 0 20px;
+  }
+  .aprenderas_single_items {
+    align-items: start;
+  }
+  .aprenderas_single_items img {
+    margin-top: 5px;
+  }
+  .aprenderas_single_items span {
+    font-size: 18px;
+  }
+  .aprenderas_bottom p {
+    padding: 0 10px;
+    padding-top: 70px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+  .aprenderas_bottom h3 {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 10px;
+  }
+  .aprenderas_btn a {
+    font-size: 18px;
+    padding: 11px 31px;
+  }
+  .impulsa_section {
+    padding-bottom: 80px;
+  }
+  .impulsa_title {
+    font-size: 25px;
+    padding-bottom: 35px;
+    line-height: 42px;
+  }
+  .impulsa_content h3 {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .impulsa_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .impulsa_btn {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding: 11px 31px;
+  }
+  .impulsa_img {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .lista_content_top h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 37px;
+  }
+
+  .lista_content_top p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 27px;
+  }
+  .lista_box h4 {
+    font-size: 26px;
+    line-height: 34px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .lista_box {
+    padding: 30px 10px;
+  }
+  .star_icons {
+    margin-bottom: 20px;
+  }
+  .lista_box .line_through {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  .lista_box .lista_price {
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 22px;
+    margin-top: 10px;
+  }
+  .lista_box_btn {
+    gap: 30px;
+  }
+  .lista_box .lista_box_btn .lista_btn_red {
+    font-size: 18px;
+  }
+
+  .lista_box .lista_box_btn .impulsa_btn {
+    padding: 11px 31px;
+  }
+
+  .accordion_section {
+    margin-top: 85px;
+  }
+  .accordion_title span {
+    font-size: 36px;
+  }
+  .accordion_title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .accordion-button {
+    font-size: 16px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 24px;
+  }
+  .accordion-body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /*=================== tiktok.html part  ================================*/
+  .tiktok_header_area h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .tiktok_hero_content h2 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .tiktok_hero_content p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+  .price_box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .price_content .price_box h4 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .price_divider {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .price_main {
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .price_btn {
+    font-size: 20px;
+    width: max-content;
+    padding: 7px 44px;
+  }
+  .tiktok_que_title {
+    font-size: 25px;
+    line-height: 34px;
+
+  }
+  .tiktok_que_single_card {
+    max-height: max-content;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
+  .tiktok_que_single_card_text h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .tiktok_que_single_card_text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .tiktok_que_btn .tiktok_impulsa_btn {
+    font-size: 20px;
+  }
+  .tiktok_impulsa_title {
+    font-size: 24px;
+    line-height: 35px;
+    padding-top: 60px;
+  }
+  .tiktok_impulsa_content h3 {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .tiktok_impulsa_btn {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .price_title {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .footer_top_btns {
+    gap: 30px;
+  }
+  .footer_btn {
+    font-size: 20px;
+    height: 55px;
+    padding: 11px 31px;
+  }
+
+  .footer_bottom p{
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+}
+
+/* Large Mobile screen :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}

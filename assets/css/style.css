@@ -1,0 +1,1487 @@
+/*   Theme default css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* ======font family=========
+  font-family: 'Inter', sans-serif;
+*/
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+
+.container {
+  max-width: 1328px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a,
+button {
+  color: inherit;
+  outline: medium none;
+  text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.pb_150 {
+  padding-bottom: 150px;
+}
+.pb_100 {
+  padding-bottom: 100px;
+}
+.pb_50 {
+  padding-bottom: 50px;
+}
+.pt_150 {
+  padding-top: 150px;
+}
+.pt_100 {
+  padding-top: 100px;
+}
+.pt_50 {
+  padding-top: 50px;
+}
+
+.mb_150 {
+  margin-bottom: 150px;
+}
+.mb_100 {
+  margin-bottom: 100px;
+}
+.mb_50 {
+  margin-bottom: 50px;
+}
+.mt_150 {
+  margin-top: 150px;
+}
+.mt_100 {
+  margin-top: 100px;
+}
+.mt_50 {
+  margin-top: 50px;
+}
+
+/* default-css END 
+================================== */
+
+.header-area {
+  padding-top: 29px;
+  width: 100%;
+  z-index: 99;
+  background: #000000;
+}
+
+/* .header-area .container{
+  max-width: 1500px;
+  width: 100%;
+  padding: 22px;
+} */
+
+.header-area .container-fluid {
+  padding: 16px 0;
+  padding-left: 44px;
+  padding-right: 22px;
+}
+
+.header_element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_area {
+  max-width: 322px;
+  width: 100%;
+}
+
+.logo_area a {
+  width: 100%;
+  background: #1b6be4;
+  border-radius: 8px;
+  padding: 16px 0;
+  text-align: center;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.menu-area {
+  max-width: 354px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.menu-area a {
+  width: 100%;
+  border-radius: 8px;
+  background: #ff0000;
+  padding: 16px 0;
+  text-align: center;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Header section END */
+
+/*============hero Area Start =============*/
+section {
+  overflow: hidden;
+}
+
+.hero_section {
+  position: relative;
+  background: #000;
+}
+
+.hero_section .container .row > * {
+  padding-right: 0;
+}
+
+.hero_section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #ff0000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(-180deg);
+}
+
+.hero_img {
+  max-width: 945px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.hero_left {
+  max-width: 620px;
+  width: 100%;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  z-index: 10;
+  margin-top: 260px;
+  position: relative;
+}
+
+.hero_left h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #ffffff;
+}
+
+.hero_left p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-right: 1px;
+}
+
+.hero_bottom {
+  z-index: 5;
+  max-width: 1103px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0;
+}
+
+.hero_btn_block {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.hero_btn {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #ff0000;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 16px 25px;
+}
+
+/*============hero Area End =============*/
+
+/*============Que_Element Area Start =============*/
+.que_section {
+  background: url("../img/bag_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 147px;
+}
+
+.que_section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transform: rotate(-0.03deg);
+}
+
+.Que_Element {
+  background: rgba(0, 0, 0, 0.88);
+  position: relative;
+  border-radius: 8px;
+  padding-top: 59px;
+  padding-left: 56px;
+  padding-bottom: 55px;
+  margin-top: 46px;
+}
+
+.que_img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 517px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.Que_Element h2 {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 2;
+  padding-bottom: 68px;
+}
+
+.que_list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  z-index: 2;
+}
+
+.que_single_items img {
+  max-width: 24px;
+  width: 100%;
+}
+
+.que_single_items {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.que_single_items span {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.que_btn {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.que_btn a {
+  position: relative;
+  display: inline-block;
+  background: #ff0000;
+  border-radius: 8px;
+  padding: 16px 31px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 70px;
+  z-index: 2;
+}
+
+/*============Que_Element Area End =============*/
+
+/*============ este curso Area Start =============*/
+
+.este_section {
+  background: url("../img/bg_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 119px;
+  position: relative;
+  z-index: 1;
+}
+
+.este_section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, #ff0000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+.este_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 69px;
+}
+
+.este_single_card {
+  padding-top: 35px;
+  padding-left: 55px;
+  background: rgba(0, 0, 0, 0.47);
+  border: 1px solid #f7b3b3;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  gap: 51px;
+  min-height: 173px;
+}
+
+.face_img {
+  max-width: 70px;
+  width: 100%;
+}
+
+.este_single_card_text h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #ffe9e9;
+  margin-bottom: 17px;
+}
+
+.este_single_card_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #ffe9e9;
+  padding-bottom: 10px;
+}
+
+.este_m_top {
+  margin-top: 48px;
+}
+
+.este_bottom {
+  z-index: 5;
+  max-width: 1301px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0;
+}
+
+/*============este curso Area End =============*/
+
+/*============ aprenderas_section Area Start =============*/
+
+.aprenderas_section {
+  background: #ff0505;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  position: relative;
+  padding-bottom: 55px;
+  padding-top: 38px;
+}
+
+.aprenderas_section .container {
+  max-width: 1292px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aprenderas_section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(-180deg);
+}
+
+.aprenderas_Element {
+  background: #000000;
+  position: relative;
+  border-radius: 8px;
+  padding-top: 58px;
+  padding-bottom: 32px;
+}
+
+.aprenderas_img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 605px;
+  width: 100%;
+  z-index: 1;
+}
+
+.aprenderas_Element h2 {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 2;
+  padding-bottom: 39px;
+  text-align: center;
+}
+
+.aprenderas_Element h2 span {
+  color: #ff0000;
+  display: block;
+}
+
+.aprenderas_list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  z-index: 2;
+  padding-left: 91px;
+}
+
+.aprenderas_single_items img {
+  max-width: 20px;
+  width: 100%;
+}
+
+.aprenderas_single_items {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.aprenderas_single_items span {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.aprenderas_btn {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.aprenderas_btn a {
+  position: relative;
+  display: inline-block;
+  background: #ff0000;
+  border-radius: 8px;
+  padding: 16px 31px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 32px;
+  z-index: 2;
+}
+
+.aprenderas_bottom p {
+  max-width: 1153px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 181px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff88;
+  padding-bottom: 32px;
+}
+
+.aprenderas_bottom h3 {
+  max-width: 710px;
+  width: 100%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/*============aprenderas_section Area End =============*/
+
+/*============impulsa Area Start =============*/
+
+.impulsa_section {
+  background: url("../img/bg_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 51px;
+  padding-bottom: 125px;
+}
+
+.impulsa_title {
+  max-width: 1067px;
+  width: 100%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 68px;
+}
+
+.impulsa_img {
+  max-width: 372px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.impulsa_img img {
+  width: 100%;
+}
+
+.impulsa_content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.impulsa_btn {
+  position: relative;
+  display: inline-block;
+  background: #51ce04;
+  border-radius: 8px;
+  padding: 16px 31px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9375);
+  margin-top: 32px;
+  z-index: 2;
+}
+
+/*============impulsa Area End =============*/
+
+/*============ lista section Area Start =============*/
+
+.lista_section {
+  background: #ff0000;
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+}
+
+.lista_section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+  height: 701px;
+  z-index: -1;
+}
+.lista_section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(-180deg);
+  width: 100%;
+  height: 701px;
+  z-index: -1;
+}
+
+.lista_content_top h2 {
+  padding-bottom: 19px;
+}
+
+.lista_content_top p {
+  max-width: 1255px;
+  width: 100%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+  color: #ffffff;
+}
+
+.lista_box {
+  max-width: 778px;
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  text-align: center;
+  padding: 58px;
+}
+
+.lista_box h4 {
+  max-width: 583px;
+  width: 100%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.star_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 18px;
+  margin-bottom: 39px;
+}
+
+.lista_box .line_through {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  display: inline-block;
+  position: relative;
+}
+
+.line_through::before {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 7px;
+  background-color: #ff0000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lista_box .lista_price {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 121px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #348503;
+  margin-bottom: 10px;
+}
+
+.lista_box_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista_box .lista_box_btn .lista_btn_red {
+  background: #ff0000;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  padding: 4px 17px;
+}
+
+.lista_box .lista_box_btn .impulsa_btn {
+  margin-top: 0;
+  font-weight: 900;
+  padding: 19px 51px;
+}
+
+/*============ lista section Area End =============*/
+
+/*============accordion Area Start =============*/
+
+.accordion_section {
+  background: url("../img/bg_4.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 193px;
+}
+.accordion {
+  max-width: 1268px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 1st row  */
+
+.accordion_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 72px;
+}
+
+.accordion_title span {
+  color: #63ff03;
+  display: block;
+}
+
+/* 2nd row  */
+
+.accordion-item {
+  margin-bottom: 22px;
+}
+
+.accordion-button {
+  height: 76px;
+  background: rgba(0, 0, 0, 0.61);
+  /* border: 1px solid #F7B3B3; */
+  border-radius: 8px;
+  outline: 1px solid #f7b3b3;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  /* line-height: 36px; */
+  line-height: 1.5;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+}
+.accordion-button:focus {
+  outline: 1px solid #f7b3b3;
+  border: none;
+  box-shadow: none;
+  color: #ffffff;
+}
+.accordion-button:after {
+  background-image: url("../img/down_arrow.svg");
+}
+.accordion-button:not(.collapsed):after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+/* .accordion-button:hover {
+} */
+
+.accordion-button:not(.collapsed) {
+  background: rgba(0, 0, 0, 0.61);
+  color: #ffffff;
+}
+
+.accordion-body {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+
+/* 3rd row  */
+.footer_part {
+  margin-top: 170px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer_part span {
+  display: block;
+}
+
+/*============accordion Area End =============*/
+
+/*! ======== index.html css part end %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ==================== */
+
+/* ========  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ==================== */
+/* !                  tiktok part start from here  */
+/* ========  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ==================== */
+
+
+
+/*============ tiktok_header Area Start =============*/
+
+.tiktok_header_area {
+  min-height: 131px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.tiktok_header_area h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*============ tiktok_header  Area Start =============*/
+
+
+/* ====== tiktok hero section START === */
+
+.tiktok_hero_section{
+  background: url('../img/bg_purple.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 131px;
+}
+
+.tiktok_hero_section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: -1;
+}
+
+.tiktok_hero_section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  bottom: -1px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.tiktok_hero_content{
+  padding-top: 42px;
+  padding-bottom: 46px;
+}
+
+.tiktok_hero_content h2{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 22px;
+}
+
+.tiktok_hero_content h2 span{
+  display: block;
+  color: #E4FF3D;
+} 
+
+.tiktok_hero_content p{
+  max-width: 1200px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+.tiktok_hero_content img{
+  max-width: 581px;
+  width: 100%;
+}
+
+.tiktok_hero_content h3{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 43px;
+}
+
+/*===== tiktok hero section END == */
+
+
+/*============ tiktok_que curso Area Start =============*/
+
+.tiktok_que_section {
+  background: #b300b7;
+  position: relative;
+  z-index: 1;
+}
+
+.tiktok_que_section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: -1;
+}
+
+.tiktok_que_section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  bottom: -1px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.tiktok_que_section .price_content .price_box {
+  background: #ffffff;
+  box-shadow: 10px 4px 10px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 93px;
+}
+
+.tiktok_que_section .price_content .price_box h4 {
+  color: #000000;
+}
+
+.tiktok_que_section .price_content .price_box .price_divider {
+  color: #000000;
+}
+
+.tiktok_que_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 44px;
+}
+
+.tiktok_que_single_card {
+  padding-top: 30px;
+  padding-left: 45px;
+  background: rgba(0, 0, 0, 0.47);
+  border: 1px solid #edb3f7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  max-height: 173px;
+}
+
+.tiktok_que_single_card_text h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #ffe9e9;
+  margin-bottom: 10px;
+}
+
+.tiktok_que_single_card_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #ffe9e9;
+  padding-bottom: 10px;
+}
+
+.este_m_top {
+  margin-top: 48px;
+}
+
+.tiktok_que_btn .tiktok_impulsa_btn {
+  background: #ff0000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/*============tiktko que curso Area End =============*/
+
+/*============tiktok impulsa Area Start =============*/
+
+.tiktok_impulsa_section {
+  background: url("../img/bg_purple.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 108px;
+  z-index: 1;
+  position: relative;
+}
+
+.tiktok_impulsa_section::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(-180deg);
+  width: 100%;
+  z-index: -1;
+  height: 410px;
+}
+
+.tiktok_impulsa_section .container {
+  max-width: 1265px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tiktok_impulsa_title {
+  max-width: 1067px;
+  width: 100%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 24px;
+  padding-top: 120px;
+}
+
+.tiktok_impulsa_img {
+  max-width: 372px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.tiktok_impulsa_img img {
+  width: 100%;
+}
+
+.tiktok_impulsa_content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.tiktok_impulsa_btn {
+  max-width: 401px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  background: #51ce04;
+  border-radius: 8px;
+  padding: 16px 31px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9375);
+  margin-top: 44px;
+  z-index: 2;
+}
+
+/*============impulsa Area End =============*/
+
+/* price start  */
+.price_section {
+  position: relative;
+  background: #b300b7;
+  z-index: 1;
+  padding-top: 50px;
+  padding-bottom: 79px;
+}
+
+.price_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+  z-index: -1;
+  height: 310px;
+}
+
+.price_section::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: rotate(-180deg);
+  width: 100%;
+  z-index: -1;
+  height: 410px;
+}
+
+.price_title {
+  max-width: 1089px;
+  width: 100%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e4ff3d;
+  padding-bottom: 44px;
+}
+
+.price_box {
+  max-width: 708px;
+  width: 100%;
+  margin: 0 auto;
+  background: #000000;
+  border: 1px solid #edb3f7;
+  box-shadow: 10px 4px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  padding: 38px 0;
+}
+
+.price_box h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.price_divider {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+.price_divider::before {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 7px;
+  background: #ff0000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.price_main {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 97px;
+  /* identical to box height */
+  text-align: center;
+  color: #51ce04;
+}
+
+.price_btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  padding: 21px 45px;
+  background: #ff0505;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.price_btn:hover {
+  color: #ffffff;
+}
+
+/* ------- price end ---- */
+
+/* ------- footer start ---- */
+
+.footer_section {
+  padding-bottom: 35px;
+}
+
+.footer_section .container {
+  max-width: 1089px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer_top_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer_btn {
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 15px;
+  padding-top: 31px;
+  padding-bottom: 12px;
+  height: 90px;
+  max-width: 401px;
+  width: 100%;
+}
+
+.btn_red {
+  background: rgba(255, 5, 5, 0.6);
+  color: #ffe9e9;
+}
+
+.btn_red:hover {
+  color: #ffe9e9;
+}
+
+.btn_green {
+  background: #63ff03;
+  color: rgba(0, 0, 0, 0.9375);
+}
+
+.footer_bottom {
+  margin-top: 88px;
+}
+
+.footer_bottom p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer_bottom p span {
+  display: block;
+}
+
+/* ------- footer end ---- */
